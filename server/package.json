@@ -1,0 +1,24 @@
+{
+  "name": "admin_dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "shri",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "country-iso-2-to-3": "^1.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "helmet": "^8.1.0",
+    "mongoose": "^9.1.6",
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.11"
+  }
+}
